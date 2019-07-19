@@ -25,6 +25,11 @@
 			num.value = Math.pow(num.value,2);
 >>>>>>> x^2 button
 		}
+
+		function reverse(){
+			var num = document.getElementById("n1");
+			num.value = 1/num.value;
+		}
 	</script>
 </head>
 <body>
@@ -34,6 +39,7 @@
 	<p>
 		<button onclick="cube()"> x^3 </button>
 		<button onclick="square()"> x^2 </button>
+		<button onclick="reverse()"> 1/x </button>
 	</p>
 
 	<p>
